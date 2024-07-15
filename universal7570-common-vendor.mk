@@ -18,24 +18,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/universal7570-common
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/universal7570-common/proprietary/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
     vendor/samsung/universal7570-common/proprietary/lib/hw/audio.playback_record.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.playback_record.default.so \
     vendor/samsung/universal7570-common/proprietary/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaptX_encoder.so \
-    vendor/samsung/universal7570-common/proprietary/lib/libmaet.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmaet.so \
-    vendor/samsung/universal7570-common/proprietary/lib/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecaudiocoreutils.so \
-    vendor/samsung/universal7570-common/proprietary/lib/libsxqk_skia.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsxqk_skia.so \
-    vendor/samsung/universal7570-common/proprietary/media/battery_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_error.spi \
-    vendor/samsung/universal7570-common/proprietary/media/battery_low.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_low.spi \
-    vendor/samsung/universal7570-common/proprietary/media/battery_temperature_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_temperature_error.spi \
-    vendor/samsung/universal7570-common/proprietary/media/battery_temperature_limit.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_temperature_limit.spi \
-    vendor/samsung/universal7570-common/proprietary/media/battery_water_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_water_usb.spi \
-    vendor/samsung/universal7570-common/proprietary/media/charging_New_Fast.spi:$(TARGET_COPY_OUT_SYSTEM)/media/charging_New_Fast.spi \
-    vendor/samsung/universal7570-common/proprietary/media/charging_New_Normal.spi:$(TARGET_COPY_OUT_SYSTEM)/media/charging_New_Normal.spi \
-    vendor/samsung/universal7570-common/proprietary/media/dock_error_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/dock_error_usb.spi \
-    vendor/samsung/universal7570-common/proprietary/media/incomplete_connect.spi:$(TARGET_COPY_OUT_SYSTEM)/media/incomplete_connect.spi \
-    vendor/samsung/universal7570-common/proprietary/media/lcd_density.txt:$(TARGET_COPY_OUT_SYSTEM)/media/lcd_density.txt \
-    vendor/samsung/universal7570-common/proprietary/media/percentage.spi:$(TARGET_COPY_OUT_SYSTEM)/media/percentage.spi \
-    vendor/samsung/universal7570-common/proprietary/media/safety_timer_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/safety_timer_usb.spi \
-    vendor/samsung/universal7570-common/proprietary/media/slow_charging_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/slow_charging_usb.spi \
-    vendor/samsung/universal7570-common/proprietary/media/temperature_limit_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/temperature_limit_usb.spi \
-    vendor/samsung/universal7570-common/proprietary/media/water_protection_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/water_protection_usb.spi
+    vendor/samsung/universal7570-common/proprietary/lib/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecaudiocoreutils.so
